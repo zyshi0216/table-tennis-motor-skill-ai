@@ -130,6 +130,20 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
   <sub>Figure 6. Model recognition performance and skill evaluation radar chart.</sub>
 </p>
 
+
+<p align="center" style="background-color:#f9f9f9; padding:10px; border-radius:8px;">
+  <img src="figures/results.png" width="75%">
+  <br>
+  <sub>Figure 4. Model recognition performance and skill evaluation radar chart.</sub>
+</p>
+
+
+
+
+
+
+
+
 - **Accuracy:** 95.3% (BP-NN) | 93.7% (DAGSVM)  
 - **Evaluation correlation:** R ≈ 0.93 with expert ratings  
 - **Realtime latency:** < 0.2 s per inference  
