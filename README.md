@@ -37,7 +37,7 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
 
 ### 🧠 Pipeline  
 
-![Pipeline](docs/figures/pipeline.png)
+![Pipeline](figures/pipeline.png)
 <p align="center">
 <sub>Figure 2. Data flow pipeline from sensing to AI-based evaluation.</sub>
 </p>
@@ -52,7 +52,7 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
 
 ### 🧩 Algorithmic Core  
 
-![AI Model](docs/figures/model_diagram.png)
+![AI Model](figures/model_diagram.png)
 <p align="center">
 <sub>Figure 3. Model structure of BP Neural Network and hierarchical scoring logic.</sub>
 </p>
@@ -76,7 +76,7 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
 
 ### 📊 Results  
 
-![Results](docs/figures/results.png)
+![Results](figures/results.png)
 <p align="center">
 <sub>Figure 4. Model recognition performance and skill evaluation radar chart.</sub>
 </p>
