@@ -45,7 +45,7 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
   
 <img src="figures/hardware_stm32.png" alt="STM32F103 + MPU6050 + HC-06 hardware photo" width="95%"/>
 
-<sub>Figure 3. STM32F103 + MPU6050 (I²C) + HC-06 (UART/Bluetooth) wearable acquisition node. 5 V→3.3 V LDO; I²C @ 400 kHz; UART @ 115200 bps.</sub>
+<sub>Figure 2. STM32F103 + MPU6050 (I²C) + HC-06 (UART/Bluetooth) wearable acquisition node. 5 V→3.3 V LDO; I²C @ 400 kHz; UART @ 115200 bps.</sub>
 
 </td>
 <td align="center" width="50%">
@@ -54,7 +54,7 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
   
 <img src="figures/actions_2x3.png" alt="Six benchmark table-tennis strokes in a 2×3 grid" width="95%"/>
 
-<sub>Figure 4. Benchmark actions: Forehand Attack, Forehand Push, Forehand Chop, Backhand Attack, Backhand Push, Backhand Chop. Consistent view angle & scale.</sub>
+<sub>Figure 3. Benchmark actions: Forehand Attack, Forehand Push, Forehand Chop, Backhand Attack, Backhand Push, Backhand Chop. Consistent view angle & scale.</sub>
 
 </td>
 </tr>
@@ -80,10 +80,14 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
 
 ### 🧠 Pipeline  
 
-![Pipeline](figures/pipeline.png)
+
 <p align="center">
-<sub>Figure 2. Data flow pipeline from sensing to AI-based evaluation.</sub>
+  <img src="figures/pipeline.png" width="80%">
+  <br>
+  <sub>Figure 4. Data flow pipeline from sensing to AI-based evaluation.</sub>
 </p>
+
+
 
 1. **Data Acquisition** — 6-axis IMU signals collected from wearable device during forehand/backhand strokes.  
 2. **Preprocessing** — Filtering, resampling, and segmentation (1.5 s window, 0.3 s step).  
@@ -95,9 +99,10 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
 
 ### 🧩 Algorithmic Core  
 
-![AI Model](figures/model_diagram.png)
 <p align="center">
-<sub>Figure 3. Model structure of BP Neural Network and hierarchical scoring logic.</sub>
+  <img src="figures/model_diagram.png" width="80%">
+  <br>
+  <sub>Figure 5. Model structure of BP Neural Network and hierarchical scoring logic.</sub>
 </p>
 
 #### 🧮 BP Neural Network  
@@ -119,9 +124,10 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
 
 ### 📊 Results  
 
-![Results](figures/results.png)
 <p align="center">
-<sub>Figure 4. Model recognition performance and skill evaluation radar chart.</sub>
+  <img src="figures/results.png" width="75%">
+  <br>
+  <sub>Figure 6. Model recognition performance and skill evaluation radar chart.</sub>
 </p>
 
 - **Accuracy:** 95.3% (BP-NN) | 93.7% (DAGSVM)  
