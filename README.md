@@ -141,20 +141,6 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
 
 
 
-
-
-
-### 💻 Quick Start  
-
-```bash
-conda env create -f env.yml && conda activate ttms
-python preprocessing/preprocess.py --in data/raw --out data/interim --fs 100
-python preprocessing/features.py --in data/interim --out data/features --win 150 --step 30
-python modeling/train_bp.py --X data/features/X_pca.npy --y data/features/y.npy --save runs/bpnn.joblib
-streamlit run app/streamlit_app.py
-
----
-
 ### 📖 Citation  
 
 If you find this work useful in your research or projects, please cite the following paper:
@@ -172,5 +158,19 @@ If you find this work useful in your research or projects, please cite the follo
   year={2024},
   doi={10.1109/JSEN.2023.3346880}
 }
+
+---
+
+
+### 💻 Quick Start  
+
+```bash
+conda env create -f env.yml && conda activate ttms
+python preprocessing/preprocess.py --in data/raw --out data/interim --fs 100
+python preprocessing/features.py --in data/interim --out data/features --win 150 --step 30
+python modeling/train_bp.py --X data/features/X_pca.npy --y data/features/y.npy --save runs/bpnn.joblib
+streamlit run app/streamlit_app.py
+
+---
 
 
