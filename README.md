@@ -100,7 +100,7 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
 ### 🧩 Algorithmic Core  
 
 <p align="center">
-  <img src="figures/model_diagram.png" width="80%">
+  <img src="figures/model_diagram.png" width="60%">
   <br>
   <sub>Figure 5. Model structure of BP Neural Network and hierarchical scoring logic.</sub>
 </p>
