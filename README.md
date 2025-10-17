@@ -35,6 +35,49 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
 
 ---
 
+### 📷 Hardware & Benchmark Actions
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+**STM32 Acquisition Hardware (100 Hz)**
+  
+<img src="figures/hardware_stm32.png" alt="STM32F103 + MPU6050 + HC-06 hardware photo" width="95%"/>
+
+<sub>Figure 3. STM32F103 + MPU6050 (I²C) + HC-06 (UART/Bluetooth) wearable acquisition node. 5 V→3.3 V LDO; I²C @ 400 kHz; UART @ 115200 bps.</sub>
+
+</td>
+<td align="center" width="50%">
+
+**Six Benchmark Strokes (2×3 Grid)**
+  
+<img src="figures/actions_2x3.png" alt="Six benchmark table-tennis strokes in a 2×3 grid" width="95%"/>
+
+<sub>Figure 4. Benchmark actions: Forehand Attack, Forehand Push, Forehand Chop, Backhand Attack, Backhand Push, Backhand Chop. Consistent view angle & scale.</sub>
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
 ### 🧠 Pipeline  
 
 ![Pipeline](figures/pipeline.png)
