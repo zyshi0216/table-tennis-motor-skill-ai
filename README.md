@@ -151,6 +151,8 @@ streamlit run app/streamlit_app.py
 
 ---
 
+
+
 ### 📖 Citation  
 
 If you find this work useful in your research or projects, please cite the following paper:
@@ -160,7 +162,7 @@ If you find this work useful in your research or projects, please cite the follo
 > *IEEE Sensors Journal*, 2024.  
 > DOI: [10.1109/JSEN.2023.3346880](https://doi.org/10.1109/JSEN.2023.3346880)
 
-```bibtex
+~~~bibtex
 @article{shi2024tabletennis,
   title={Design of a Motor Skill Recognition and Hierarchical Evaluation System for Table Tennis Players},
   author={Shi, Zhuoyong and Jia, Yetao and Zhang, Kai and Wang, Dong and Jia, Long and Wu, Yong},
@@ -168,6 +170,8 @@ If you find this work useful in your research or projects, please cite the follo
   year={2024},
   doi={10.1109/JSEN.2023.3346880}
 }
+~~~
+
 
 
 
