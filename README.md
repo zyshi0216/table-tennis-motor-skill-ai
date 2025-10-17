@@ -125,7 +125,7 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
 ### 📊 Results  
 
 <p align="center">
-  <img src="figures/results.png" width="75%">
+  <img src="figures/results.png" width="60%">
   <br>
   <sub>Figure 6. Model recognition performance and skill evaluation radar chart.</sub>
 </p>
