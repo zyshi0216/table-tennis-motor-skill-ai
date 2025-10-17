@@ -139,6 +139,11 @@ The framework integrates **multimodal IMU sensing**, **feature engineering**, an
 
 ---
 
+
+
+
+
+
 ### 💻 Quick Start  
 
 ```bash
@@ -150,11 +155,9 @@ streamlit run app/streamlit_app.py
 
 ---
 
-
----
 ### 📖 Citation  
 
-If you find this work useful in your research, please cite the following paper:
+If you find this work useful in your research or projects, please cite the following paper:
 
 > Shi, Zhuoyong; Jia, Yetao; Zhang, Kai; Wang, Dong; Jia, Long; Wu, Yong.  
 > **Design of a Motor Skill Recognition and Hierarchical Evaluation System for Table Tennis Players.**  
