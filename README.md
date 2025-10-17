@@ -4,7 +4,7 @@
 # 🏓 Table Tennis Motor Skill Recognition & Evaluation System  
 *An AI-powered wearable framework for motion recognition and hierarchical skill assessment*
 
-![System Overview](docs/figures/overview.png)
+![System Overview](figures/overview.png)
 <p align="center">
 <sub>Figure 1. Overview of the wearable acquisition and AI-based hierarchical evaluation system.</sub>
 </p>
