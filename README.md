@@ -147,3 +147,25 @@ python preprocessing/preprocess.py --in data/raw --out data/interim --fs 100
 python preprocessing/features.py --in data/interim --out data/features --win 150 --step 30
 python modeling/train_bp.py --X data/features/X_pca.npy --y data/features/y.npy --save runs/bpnn.joblib
 streamlit run app/streamlit_app.py
+
+---
+
+### 📖 Citation  
+
+If you find this work useful in your research, please cite the following paper:
+
+> Shi, Zhuoyong; Jia, Yetao; Zhang, Kai; Wang, Dong; Jia, Long; Wu, Yong.  
+> **Design of a Motor Skill Recognition and Hierarchical Evaluation System for Table Tennis Players.**  
+> *IEEE Sensors Journal*, 2024.  
+> DOI: [10.1109/JSEN.2023.3346880](https://doi.org/10.1109/JSEN.2023.3346880)
+
+```bibtex
+@article{shi2024tabletennis,
+  title={Design of a Motor Skill Recognition and Hierarchical Evaluation System for Table Tennis Players},
+  author={Shi, Zhuoyong and Jia, Yetao and Zhang, Kai and Wang, Dong and Jia, Long and Wu, Yong},
+  journal={IEEE Sensors Journal},
+  year={2024},
+  doi={10.1109/JSEN.2023.3346880}
+}
+
+
