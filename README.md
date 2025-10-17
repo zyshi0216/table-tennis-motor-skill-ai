@@ -148,8 +148,7 @@ python modeling/train_bp.py --X data/features/X_pca.npy --y data/features/y.npy 
 streamlit run app/streamlit_app.py
 
 
-## 2) Citation（独立围栏，避免被前一段影响）
-```markdown
+
 ---
 
 ### 📖 Citation  
